@@ -1,0 +1,21 @@
+class Recusn
+{
+public static int  Fact_cal(int num)
+{
+    if(num>1)
+    {
+        return num*Fact_cal(num-1);
+
+    }
+    else{
+        return 1;
+    }
+}
+
+    public static void main(String[] args) {
+    Recusn obj=new Recusn();
+    int num=5;
+    int Factorial=Fact_cal(num);
+    System.out.println(Factorial);
+
+    }
