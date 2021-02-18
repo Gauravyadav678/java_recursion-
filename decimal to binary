@@ -1,0 +1,17 @@
+class Conveter
+{
+    public void convert(int value)
+    {
+        if(value>0)
+        {
+            convert(value/2);
+        }
+        System.out.print(value%2);
+    }
+
+    public static void main(String[] args) {
+        Converter obj=new Converter();
+        obj.convert(8);
+
+    }
+}
